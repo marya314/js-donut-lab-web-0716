@@ -7,3 +7,13 @@
 //write a conditional to check if there are enough donuts
 
   //alert the user with a message telling them the numbers of donuts and guests, and if there are enough donuts for each guest.
+
+var guest = parseInt(prompt("Insert the number of guests"));
+var donut = parseInt(prompt("Insert the number of donuts"));
+
+
+if (guest > donut){
+    alert(`There are ${donut} donuts and ${guest} guests; there are not enough donuts for each guest.`)
+} else {
+    alert(`There are ${donut} donuts and ${guest} guests; there are plenty of donuts.`)
+}
